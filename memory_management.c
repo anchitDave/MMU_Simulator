@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define INPUT_ADDRESSES      "addresses/addresses.txt"
+#define INPUT_ADDRESSES      "benchmarks/pathfinder/after-protected/addresses.txt"
 
 /* Memory Size Parameters */
 #define BUFFER_LEN           20
 #define PAGE_SIZE            256
 #define PAGE_TABLE_SIZE      256
-#define PHYS_MEM_SIZE        256
+#define PHYS_MEM_SIZE        64
 #define TLB_SIZE             16
 
 /* Masks for Virtual Address Processing */
